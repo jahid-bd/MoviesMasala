@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Foonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Css Fils -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/see-more-movies.css">
+     <!--Css Plugin Fils -->
+     <link rel="stylesheet" href="plugins/css/owl.carousel.min.css">
+     <link rel="stylesheet" href="plugins/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="plugins/css/venobox.css">
+
+    <title>Latest new Movies</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-1"><a href="index.html"><img src="Images/LogoMakr (1).png" alt="" style="width: 100px;"></a></div>
+                <div class="col-3 col-lg-8 col-md-6 ">
+                    <nav class="">
+                        <!-- <label for="drop"  class="toggle icon" style="color:#fff"><i class="fa fa-bars"></i></label>
+                        <input type="checkbox" id="drop"> -->
+                        <ul class="menu" id="mynav">
+                            <li><a href="index.html" class="active" style="color: cyan">Home</a></li>
+                            <li>
+                                <label for="drop1"  class="toggle">Movies +</label>
+                                <a href="">Movies <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                <input type="checkbox" id="drop1">
+                                <ul>
+                                    <li>
+                                        <label for="drop2"  class="toggle">Hollywood +</label>
+                                        <a href="">Hollywood <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                        <input type="checkbox" id="drop2">
+
+                                        <ul>
+                                            <li><a href="">Action</a></li>
+                                            <li><a href="">Adventure</a></li>
+                                            <li><a href="">SiFi</a></li>
+                                            <li><a href="">Romantic</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Bollywood</a></li>
+                                    <li><a href="">South</a> </li>
+                                    <li><a href="">Animation</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <label for="drop3"  class="toggle">Features +</label>
+                                <a href="">Features <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                <input type="checkbox" id="drop3">
+
+                                <ul>
+                                    <li><a href="">Top Rated</a></li>
+                                    <li><a href="">Fan Fav</a></li>
+                                    <li><a href="">Latest</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#about-us">About Us</a></li>
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(x)">&times;</a>
+                        </ul>
+
+                    </div>
+                    <div class="col-8 col-lg-3 col-md-5 search-bar">
+                        <span class="nav-icon" onclick="openNav()"><i class="fa fa-bars"></i></span>
+                        <form action="/action_page.php align-iteams-center ">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+
+                    </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- ---<<<<====End header Section====>>>>--- -->
+
+<!-- ---<<<<====Content Section====>>>>--- -->
+    <div class="latest-movies">
+        <div class="container">
+            <div class="content-header">
+                <h2>Latest New movies</h2>
+                <div class="filter-bar">
+                    <ul>
+                        <li><a href="" class="active">Fan Favourites</a></li>
+                        <li><a href="">Top Rating</a></li>
+                        <li><a href="">Most Popular</a></li>
+                        <li><a href="">Watch Guide</a></li>
+                        <li><a href="">How To Download</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/doctor (1).jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>7.5</span></div>
+                                        <h6>Doctor Strange (2016)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/love.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>7.0</span></div>
+                                        <h6>
+                                            Love and Monsters (2020)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/captain-firts (1).jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>6.9</span></div>
+                                        <h6>Captain America: The First Avenger (2011)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/doctor (1).jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>7.5</span></div>
+                                        <h6>Doctor Strange (2016)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/thor.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>6.9</span></div>
+                                        <h6>Thor: The Dark World (2013)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/doctor (1).jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>7.5</span></div>
+                                        <h6>Doctor Strange (2016)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/love.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>7.0</span></div>
+                                        <h6>
+                                            Love and Monsters (2020)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/captain-firts (1).jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>6.9</span></div>
+                                        <h6>Captain America: The First Avenger (2011)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/doctor (1).jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>7.5</span></div>
+                                        <h6>Doctor Strange (2016)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/thor.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>6.9</span></div>
+                                        <h6>Thor: The Dark World (2013)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> 
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/captain-firts (1).jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>6.9</span></div>
+                                        <h6>Captain America: The First Avenger (2011)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/captain-firts (1).jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>6.9</span></div>
+                                        <h6>Captain America: The First Avenger (2011)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/captain-firts (1).jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>6.9</span></div>
+                                        <h6>Captain America: The First Avenger (2011)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-9 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/thor.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>6.9</span></div>
+                                        <h6>Thor: The Dark World (2013)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-9 col-md-3 col-sm-4 col-6">
+                            <div class="movie-box">
+                                <a href="">
+                                    <div class="album">
+                                        <img src="Images/love.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="imdb"><i class="fa fa-imdb" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <span>7.0</span></div>
+                                        <h6>
+                                            Love and Monsters (2020)</h6>
+                                        <div class="trailer-info">
+                                            <a href="http://youtu.be/n9DwoQ7HWvI" class="trailer  venobox" data-autoplay="true" data-vbtype="video"><i class="fa fa-play" aria-hidden="true"></i>Trailer</a>
+                                            <a href="" class="info"><i class="fa fa-info" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </div>
+
+<!-- ---<<<<====Footer Section====>>>>--- -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Movies Masala</h4>
+                        <p>
+                            A108 Adam Street<br>
+                            Rajshahi, Naogoan<br>
+                            Bangladesh<br><br>
+                            <strong>Phone :</strong> +8801754310604<br>
+                            <strong>Email :</strong> jahidbd9x@gmail.com
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href=""><i class="fa fa-angle-right"></i> Home</a></li>
+                            <li><a href=""><i class="fa fa-angle-right"></i> Movies</a></li>
+                            <li><a href=""><i class="fa fa-angle-right"></i> Features</a></li>
+                            <li><a href=""><i class="fa fa-angle-right"></i> Blog</a></li>
+                            <li><a href=""><i class="fa fa-angle-right"></i> About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Movie Links</h4>
+                        <ul>
+                            <li><a href=""><i class="fa fa-angle-right"></i> Hollywood</a></li>
+                            <li><a href=""><i class="fa fa-angle-right"></i> Animation</a></li>
+                            <li><a href=""><i class="fa fa-angle-right"></i> South Indain</a></li>
+                            <li><a href=""><i class="fa fa-angle-right"></i> Bollywood</a></li>
+                            <li><a href=""><i class="fa fa-angle-right"></i> Tv Series</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 social-links">
+                        <h4>Our Social Links</h4>
+                        <p>You can join with our social sites. You can get there regular updates</p>
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"><p>
+                        © Copyright <strong>Movies Masala.</strong> All Rights recerved</p>
+                    </div>
+                    <div class="col-md-6 credits">
+                        <p>Designed By <strong>Md Jahid Hasan</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="" class="back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- Js Plugin Fils -->
+    <script src="plugins/Js/jquery.min.js"></script>
+    <script src="plugins/Js/owl.carousel.min.js"></script>
+    <script src="plugins/Js/venobox.min.js"></script>
+    <script src="plugins/Js/fluidify.js"></script>
+
+    <script>
+       
+    </script>
+    <script src="Js/main.js"></script>
+</body>
+</html>

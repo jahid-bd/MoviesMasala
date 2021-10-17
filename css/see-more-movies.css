@@ -1,0 +1,74 @@
+body{
+    background: #000;
+}
+.latest-movies .row{
+    margin-bottom: 20px;
+}
+.latest-movies [class^=col]{
+    padding-bottom: 20px;
+}
+.latest-movies .content-header{
+    padding: 30px 0;
+}
+.latest-movies .content-header h2{
+    /* color: #f5c518; */
+    margin-bottom: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    position: relative;
+}
+.latest-movies .content-header h2::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 40px;
+    background: #f5bf0b;
+    left: 0px;
+}
+.latest-movies .content-header .filter-bar{
+    background: #212121;
+}
+.content-header .filter-bar ul{
+    margin: 0;
+    padding: 0;
+}
+.content-header .filter-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+.content-header .filter-bar ul li a{
+    display: block;
+    padding: 12px 20px;
+}
+.content-header .filter-bar ul li a:hover{
+    background: #323232;
+}
+
+.filter-bar .active{
+    position: relative;
+}
+.filter-bar .active::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 3px;
+    background: #f5bf0b;
+    left: 0px;
+    bottom: 0;
+}
+
+/* @media (min-width: 1200px) {
+    .container{
+        max-width: 1180px;
+    }
+}
+@media (max-width: 1024px) {
+    .container{
+        max-width: 1000px;
+    }
+} */
+
+
